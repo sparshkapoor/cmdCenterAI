@@ -13,7 +13,7 @@ import ChatGPTSwift
 @Observable
 class ViewModel: NSObject, AVAudioRecorderDelegate, AVAudioPlayerDelegate {
     
-    let client = ChatGPTAPI(apiKey: "sk-proj-MbrC0t38AN7u7zL2cSrCT3BlbkFJpe9qCeAQqpRJW9msWyG4")
+    let client = ChatGPTAPI(apiKey: "API-KEY")
     var audioPlayer: AVAudioPlayer!
     var audioRecorder: AVAudioRecorder!
     #if !os(macOS)
