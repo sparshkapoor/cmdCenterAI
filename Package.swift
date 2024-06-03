@@ -29,7 +29,7 @@ let package = Package(
         .target(
             name: "cmdCenterAI",
             dependencies: [
-                .product(name: "ChatGPTSwift", package: "ChatGPTSwift"),
+                .product(name: "ChatGPTSwiftHexWindows", package: "ChatGPTSwiftHexWindows"),
                 .product(name: "SiriWaveView", package: "SiriWaveView"),
                 .product(name: "GPTEncoder", package: "GPTEncoder"),
                 .product(name: "OpenAPIRuntime", package: "swift-openapi-runtime"),
