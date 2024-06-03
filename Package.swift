@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+q// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,7 +14,7 @@ let package = Package(
             targets: ["cmdCenterAI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/sparshkapoor/ChatGPTSwiftfHex/tree/HexWin", from: "1.0.0"),
+        .package(url: "https://github.com/sparshkapoor/ChatGPTSwiftfHex", from: "1.0.0"),
         .package(url: "https://github.com/alfianlosari/SiriWaveView", from: "1.0.0"),
         .package(url: "https://github.com/alfianlosari/GPTEncoder.git", exact: "1.0.4"),
         .package(url: "https://github.com/apple/swift-openapi-generator", from: "1.0.0"),
