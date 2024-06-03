@@ -14,7 +14,7 @@ let package = Package(
             targets: ["cmdCenterAI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/sparshkapoor/ChatGPTSwiftHexWindows.git", exact: "1.0.0"),
+        .package(url: "https://github.com/alfianlosari/ChatGPTSwift", from: "2.2.5"),
         .package(url: "https://github.com/alfianlosari/SiriWaveView", from: "1.0.0"),
         .package(url: "https://github.com/alfianlosari/GPTEncoder.git", exact: "1.0.4"),
         .package(url: "https://github.com/apple/swift-openapi-generator", from: "1.0.0"),
@@ -29,7 +29,7 @@ let package = Package(
         .target(
             name: "cmdCenterAI",
             dependencies: [
-                .product(name: "ChatGPTSwiftHexWindows", package: "ChatGPTSwiftHexWindows"),
+                .product(name: "ChatGPTSwift", package: "ChatGPTSwift"),
                 .product(name: "SiriWaveView", package: "SiriWaveView"),
                 .product(name: "GPTEncoder", package: "GPTEncoder"),
                 .product(name: "OpenAPIRuntime", package: "swift-openapi-runtime"),
